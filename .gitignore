@@ -10,6 +10,9 @@ node_modules/
 /.react-router/
 /build/
 
+# Screenshots and traces from the Playwright MCP server
+/.playwright-mcp/
+
 # Editor / OS files
 .idea/
 Thumbs.db
