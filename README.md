@@ -11,6 +11,8 @@ Source code of my personal portfolio website.
 - [Vitest](https://vitest.dev) + Testing Library for unit tests,
   [Playwright](https://playwright.dev) + axe-core for end-to-end and accessibility tests
 - pnpm, Node 24, Docker, GitHub Actions
+- [Renovate](https://docs.renovatebot.com) for weekly dependency updates
+  (config: `.github/renovate.json5`)
 
 ## Development
 
