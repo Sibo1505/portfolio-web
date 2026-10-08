@@ -25,7 +25,7 @@ export default function NotFound() {
 
   return (
     <Container className="pt-16">
-      <p className="text-sm font-medium text-gray-500">404</p>
+      <p className="text-sm font-medium text-gray-500 dark:text-gray-400">404</p>
       <h1 className="mt-2 text-3xl font-semibold">{t("notFound.heading")}</h1>
       <p className="mt-2 text-gray-600 dark:text-gray-400">{t("notFound.text")}</p>
       <Link

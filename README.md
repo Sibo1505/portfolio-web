@@ -6,16 +6,22 @@ Source code of my personal portfolio website.
 
 - [React Router](https://reactrouter.com) (framework mode, SSR) with TypeScript (strict)
 - [Tailwind CSS](https://tailwindcss.com)
+- [i18next](https://www.i18next.com) for German and English (`/` and `/en`)
 - [Oxfmt](https://oxc.rs) for formatting, [Oxlint](https://oxc.rs) for linting
-- pnpm, Node 24, Docker
+- [Vitest](https://vitest.dev) + Testing Library for unit tests,
+  [Playwright](https://playwright.dev) + axe-core for end-to-end and accessibility tests
+- pnpm, Node 24, Docker, GitHub Actions
 
 ## Development
 
 ```sh
-pnpm i       # install dependencies
-pnpm dev     # start the dev server on http://localhost:5173
-pnpm check   # format check, lint and type check
-pnpm build   # production build
+pnpm i                               # install dependencies (also installs git hooks)
+pnpm dev                             # start the dev server on http://localhost:5173
+pnpm check                           # format check, lint and type check
+pnpm test                            # unit tests (pnpm test:watch for watch mode)
+pnpm exec playwright install chromium   # once: download the browser for E2E tests
+pnpm test:e2e                        # E2E + accessibility tests against the production build
+pnpm build                           # production build
 ```
 
 ## License

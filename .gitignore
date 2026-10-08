@@ -10,6 +10,11 @@ node_modules/
 /.react-router/
 /build/
 
+# Playwright E2E test results and reports
+/test-results/
+/playwright-report/
+/blob-report/
+
 # Screenshots and traces from the Playwright MCP server
 /.playwright-mcp/
 
