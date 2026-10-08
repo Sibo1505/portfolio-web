@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+
+# Environment variables – never commit these
+.env
+.env.*
+!.env.example
+
+# React Router
+/.react-router/
+/build/
+
+# Editor / OS files
+.idea/
+Thumbs.db
