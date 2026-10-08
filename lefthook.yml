@@ -21,8 +21,11 @@ commit-msg:
     - name: commitlint
       run: pnpm exec commitlint --edit {1}
 
-# Full project check before code leaves the machine (includes the type check).
+# Full project check before code leaves the machine (type check and tests included).
 pre-push:
   jobs:
     - name: check
       run: pnpm check
+
+    - name: test
+      run: pnpm test

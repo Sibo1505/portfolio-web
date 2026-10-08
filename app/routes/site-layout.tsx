@@ -7,7 +7,7 @@ import type { Route } from "./+types/site-layout";
 
 // Runs on the server: computing the year here (instead of during render) keeps
 // server and client output identical and avoids hydration mismatches.
-export function loader(_args: Route.LoaderArgs) {
+export function loader() {
   return { year: new Date().getFullYear() };
 }
 

@@ -1,8 +1,6 @@
 import { Container } from "~/components/ui/container";
 
-import type { Route } from "./+types/home";
-
-export function meta(_args: Route.MetaArgs) {
+export function meta() {
   return [
     { title: "Sebastian Bergen – Portfolio" },
     { name: "description", content: "Portfolio von Sebastian Bergen, Web Developer." },
