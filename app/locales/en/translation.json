@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "home": {
+      "title": "Sebastian Bergen – Portfolio",
+      "description": "Portfolio of Sebastian Bergen, web developer."
+    },
+    "notFound": {
+      "title": "Page not found – Sebastian Bergen"
+    }
+  },
+  "home": {
+    "heading": "Sebastian Bergen",
+    "intro": "Portfolio – under construction."
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to home"
+  },
+  "error": {
+    "heading": "Error",
+    "text": "An unexpected error occurred."
+  },
+  "languageSwitcher": {
+    "label": "Deutsch",
+    "ariaLabel": "View this page in German"
+  }
+}

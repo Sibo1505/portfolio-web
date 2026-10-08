@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "home": {
+      "title": "Sebastian Bergen – Portfolio",
+      "description": "Portfolio von Sebastian Bergen, Web Developer."
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden – Sebastian Bergen"
+    }
+  },
+  "home": {
+    "heading": "Sebastian Bergen",
+    "intro": "Portfolio – im Aufbau."
+  },
+  "notFound": {
+    "heading": "Seite nicht gefunden",
+    "text": "Die Seite, die du suchst, existiert nicht oder wurde verschoben.",
+    "backHome": "Zur Startseite"
+  },
+  "error": {
+    "heading": "Fehler",
+    "text": "Es ist ein unerwarteter Fehler aufgetreten."
+  },
+  "languageSwitcher": {
+    "label": "English",
+    "ariaLabel": "Seite auf Englisch anzeigen"
+  }
+}
