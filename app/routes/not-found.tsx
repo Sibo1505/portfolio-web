@@ -2,15 +2,13 @@ import { data, Link } from "react-router";
 
 import { Container } from "~/components/ui/container";
 
-import type { Route } from "./+types/not-found";
-
 // Respond with a real 404 status code (important for SEO), while still rendering
 // this page inside the site layout instead of the generic error boundary.
-export function loader(_args: Route.LoaderArgs) {
+export function loader() {
   return data(null, { status: 404 });
 }
 
-export function meta(_args: Route.MetaArgs) {
+export function meta() {
   return [{ title: "Seite nicht gefunden – Sebastian Bergen" }];
 }
 
